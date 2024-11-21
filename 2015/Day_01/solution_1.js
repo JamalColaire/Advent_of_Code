@@ -1,7 +1,13 @@
 /*
-
+Day 1 Puzzle solution
 
 
 */
 
-console.log("Testing...")
+let floor = 0
+function floorNum(x, y){
+
+  console.log()
+}
+
+floorNum()
