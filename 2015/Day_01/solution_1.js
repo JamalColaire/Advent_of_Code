@@ -4,10 +4,19 @@ Day 1 Puzzle solution
 
 */
 
-let floor = 0
-function floorNum(x, y){
+const floorNum = (x) => {
 
-  console.log()
+  let num = 0
+
+  for (let n of x) {
+    if(n === "("){
+      num++
+    }else if(n === ")"){
+      num--
+    }
+  }
+
+  return num
 }
 
-floorNum()
+console.log(floorNum([")",")",")","(","(",")"]))
