@@ -19,4 +19,4 @@ const floorNum = (x) => {
   return num
 }
 
-console.log(floorNum([")",")",")","(","(",")"])) //Test Input
+console.log(floorNum(["(",")","(","("])) //Test Input
