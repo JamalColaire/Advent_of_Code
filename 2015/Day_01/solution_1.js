@@ -9,11 +9,7 @@ const floorNum = (x) => {
   let num = 0
 
   for (let n of x) {
-    if(n === "("){
-      num++
-    }else{
-      num--
-    }
+    n == "(" ? num++ : num--
   }
 
   return num // floor number
