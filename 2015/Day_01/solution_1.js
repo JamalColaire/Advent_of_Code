@@ -11,7 +11,7 @@ const floorNum = (x) => {
   for (let n of x) {
     if(n === "("){
       num++
-    }else if(n === ")"){
+    }else{
       num--
     }
   }
