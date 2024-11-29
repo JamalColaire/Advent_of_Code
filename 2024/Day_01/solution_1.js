@@ -6,7 +6,7 @@ Day 1 Puzzle-1 solution
 
 
 
-let input = "" // sample input
+let input = ""
 
 let ans = input
 
