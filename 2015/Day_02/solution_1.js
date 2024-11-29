@@ -35,7 +35,7 @@ function squareFt(x){
   return total 
 }
 
-let input = "1x1x10" // sample input
+let input = "1x1x10"
 
 let ans = input.split(' ') // splitting the input by spaces and returning an array
 
