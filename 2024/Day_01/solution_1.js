@@ -6,12 +6,12 @@ Day 1 Puzzle-1 solution
 
 function listDiff(x){
 
-  let lArr = []
-  let rArr = []
-  
   for(let e of x){
     e.split('   ')
   }
+
+  let lArr = []
+  let rArr = []
 
   for(let i = 0; i < x.length; i++){
     for(let j = 0; j < x[i].length; j++){
@@ -19,6 +19,11 @@ function listDiff(x){
       lArr = lArr.push(x[i][j])
       }else(rArr = rArr.push(x[i][j]))
     }
+  }
+
+  for(let i = 0; i < lArr.length; i++){
+    Number(lArr[i])
+    Number(rArr[i])
   }
 
   lArr.sort()
