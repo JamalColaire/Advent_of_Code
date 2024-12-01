@@ -30,12 +30,13 @@ function listDiff(x){
   rArr.sort()
 
   let total = 0
+  let diff = 0
 
   for(let i = 0; i < lArr.length; i++){
     if(lArr[i] > rArr[i]){
-      let diff = lArr[i] - rArr[i]
+      diff = lArr[i] - rArr[i]
     }else if(rArr[i] > lArr[i]){
-      let diff = rArr[i] - lArr[i]
+      diff = rArr[i] - lArr[i]
     }
     total += diff
   }
