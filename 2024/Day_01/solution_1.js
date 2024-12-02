@@ -44,8 +44,9 @@ function listDiff(x){
   return total
 }
 
-let input = "3   4"
+const fs = require('fs')
 
+const input = fs.readFileSync('./input.txt').toString()
 
 let ans = input.split('\n')
 
