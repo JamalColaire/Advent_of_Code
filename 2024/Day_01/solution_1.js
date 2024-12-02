@@ -37,6 +37,8 @@ function listDiff(x){
       diff = lArr[i] - rArr[i]
     }else if(rArr[i] > lArr[i]){
       diff = rArr[i] - lArr[i]
+    }else{
+      diff = 0
     }
     total += diff
   }
