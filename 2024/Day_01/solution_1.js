@@ -16,8 +16,8 @@ function listDiff(x){
   for(let i = 0; i < x.length; i++){ // Inserting the numbers into the appropriate array side
     for(let j = 0; j < x[i].length; j++){
       if(j == 0){
-      lArr = lArr.push(x[i][j])
-      }else(rArr = rArr.push(x[i][j]))
+      lArr.push(x[i][j])
+      }else(rArr.push(x[i][j]))
     }
   }
 
@@ -44,12 +44,8 @@ function listDiff(x){
   return total
 }
 
-let input = "3   4
-4   3
-2   5
-1   3
-3   9
-3   3";
+let input = "3   4"
+
 
 let ans = input.split('\n')
 
