@@ -16,8 +16,8 @@ function sol2(x){
   for(let i = 0; i < x.length; i++){ // Inserting the numbers into the appropriate array side
     for(let j = 0; j < x[i].length; j++){
       if(j == 0){
-      lArr = lArr.push(x[i][j])
-      }else(rArr = rArr.push(x[i][j]))
+      lArr.push(x[i][j])
+      }else(rArr.push(x[i][j]))
     }
   }
 
