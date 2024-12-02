@@ -45,7 +45,9 @@ function sol2(x){
   return total
 }
 
-let input = ""
+const fs = require('fs')
+
+const input = fs.readFileSync('./input.txt').toString()
 
 let ans = input.split('\n')
 

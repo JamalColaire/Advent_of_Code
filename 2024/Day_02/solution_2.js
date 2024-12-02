@@ -9,7 +9,9 @@ function sol2(x){
   for(let e of x){}
 }
 
-let input = ""
+const fs = require('fs')
+
+const input = fs.readFileSync('./input.txt').toString()
 
 let ans = input
 
