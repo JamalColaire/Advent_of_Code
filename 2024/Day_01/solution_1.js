@@ -26,20 +26,24 @@ function listDiff(x){
     Number(rArr[i])
   }
 
+  console.log(lArr) //test
+  console.log(rArr) //test
+
   lArr.sort() // ordering the numbers in the new array
   rArr.sort()
+
+  console.log(lArr) //test
+  console.log(rArr) //test
 
   let total = 0 // summ of the differences
   let diff = 0
 
   for(let i = 0; i < lArr.length; i++){ // comparing the two equivalent indexes based on size
-    if(lArr[i] > rArr[i]){
-      diff = lArr[i] - rArr[i]
-    }else if(rArr[i] > lArr[i]){
-      diff = rArr[i] - lArr[i]
-    }else{
-      diff = 0
-    }
+
+    diff = Math.abs(lArr[i] - rArr[i])
+    console.log(lArr[i]) //test
+    console.log(rArr[i]) //test
+    //console.log(diff) //test
     total += diff
   }
 
