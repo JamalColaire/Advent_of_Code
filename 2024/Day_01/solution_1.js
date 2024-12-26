@@ -54,6 +54,8 @@ const fs = require('fs')
 
 const input = fs.readFileSync('./input.txt').toString()
 
+console.log(input)
+
 let ans = input.split('\n')
 
-console.log(listDiff(ans)) //solution
+//console.log(listDiff(ans)) //solution
