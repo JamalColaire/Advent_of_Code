@@ -54,7 +54,7 @@ const fs = require('fs')
 
 const input = fs.readFileSync('./input.txt').toString()
 
-console.log(input)
+console.log(input) // testing input
 
 let ans = input.split('\n')
 
