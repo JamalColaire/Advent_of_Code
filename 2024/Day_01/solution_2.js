@@ -49,6 +49,8 @@ const fs = require('fs')
 
 const input = fs.readFileSync('./input.txt').toString()
 
+console.log(input) // testing input
+
 let ans = input.split('\n')
 
-console.log(sol2(ans)) //solution
+// console.log(sol2(ans)) //solution
