@@ -53,4 +53,6 @@ console.log(input) // testing input
 
 let ans = input.split('\n')
 
+console.log(ans) // testing ans
+
 // console.log(sol2(ans)) // solution
