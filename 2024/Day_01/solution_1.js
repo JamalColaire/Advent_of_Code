@@ -58,6 +58,6 @@ console.log(input) // testing input
 
 let ans = input.split('\n')
 
-console.log(ans) // testing input
+console.log(ans) // testing split input
 
 // console.log(listDiff(ans)) // solution
