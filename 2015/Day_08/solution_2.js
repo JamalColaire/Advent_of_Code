@@ -1,5 +1,5 @@
 /*
-Day 1 Puzzle-2 solution
+Day 8 Puzzle-2 solution
 
 
 */
