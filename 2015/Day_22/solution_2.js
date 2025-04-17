@@ -1,5 +1,5 @@
 /*
-Day 21 Puzzle-2 solution
+Day 22 Puzzle-2 solution
 
 
 */
