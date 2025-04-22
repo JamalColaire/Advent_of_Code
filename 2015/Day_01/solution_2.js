@@ -17,7 +17,6 @@ const floorNum = (x) => {
       return i + 1
     }
   }
-
 }
 
 const fs = require('fs')
