@@ -39,4 +39,4 @@ let input = "1x1x10"
 
 let ans = input.split(' ') // splitting the input by spaces and returning an array
 
-console.log(squareFt(ans)) //solution
+console.log(squareFt(ans)) // solution
