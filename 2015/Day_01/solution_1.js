@@ -6,7 +6,7 @@ Day 1 Puzzle-1 solution
 
 const floorNum = (x) => {
 
-  let num = 0 //floor number
+  let num = 0 // floor number
 
   for (let n of x) { // iterates through the array and increments the floor number based on the symbol
     n == "(" ? num++ : num-- 
