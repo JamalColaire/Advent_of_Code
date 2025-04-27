@@ -15,11 +15,11 @@ function squareFt(x){
       Number(j) 
     }
 
-    let side1 = arr[0]*arr[1] //lxw
-    let side2 = arr[1]*arr[2] //wxh
-    let side3 = arr[2]*arr[0] //hxl
+    let side1 = arr[0]*arr[1] // lxw
+    let side2 = arr[1]*arr[2] // wxh
+    let side3 = arr[2]*arr[0] // hxl
     
-    let smallSide = 0 //smallest side
+    let smallSide = 0 // smallest side
 
     if(side1 < side2 && side3){
       smallSide = side1
