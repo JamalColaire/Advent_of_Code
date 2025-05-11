@@ -15,4 +15,4 @@ const input = fs.readFileSync('./input.txt').toString()
 
 let ans = input
 
-console.log(sol1(ans)) //  solution
+console.log(sol1(ans)) // solution
